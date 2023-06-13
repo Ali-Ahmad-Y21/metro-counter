@@ -14,7 +14,7 @@ h1 {
 h2 {
     margin-bottom: 20px;
 }
-#increment-btn , #save-btn, #reset-btn{
+#increment-btn , #save-btn, #reset-btn , #delet-btn{
     border: none;
     padding: 10px 5px;
     color: #fff;
@@ -25,12 +25,15 @@ h2 {
     background: #00009a;
     font-weight: bold;
 }
+#delete-btn{
+    background-color: rgb(13, 133, 170);
+}
 #save-btn{
     background: #006b00;
 }
 #reset-btn{
     background: #880000;
 }
-#increment-btn:hover, #save-btn:hover, #reset-btn:hover{
+#increment-btn:hover, #save-btn:hover, #reset-btn:hover , #delete-btn:hover{
     opacity: 0.6;
 }
